@@ -12,7 +12,7 @@ int main() {
     pq.push({10, 5});
     pq.push({20, 3});
     pq.push({20, 7});
-    pq.push({15, 8});
+
 
     while (!pq.empty()) {
         cout << pq.top().first << " "
